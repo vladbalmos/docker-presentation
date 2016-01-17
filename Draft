@@ -1,0 +1,35 @@
+* descriere
+    * ce este
+    * ce nu este
+    * la ce poate fi folosit (brieft)
+* diferente fata de o masina virtuala (implementare cu cgroups, namespace, etc) - it's a SANDBOX
+* pe ce platforme poate fi folosit (linux, macos, windows)
+* cum se instaleaza pe linux
+* ce este o imagine docker
+    * vorbeste despre docker hub repository
+    * exista posibilitatea de a avea repository privat de imagini
+    * cum se creeaza o imagine:
+        * Dockerfile 
+        * manual 
+        * ALWASY USE A DOCKER FILE IF YOU INTEND TO SHARE AN IMAGE
+* ce este un container docker
+* fa analogia intre clase si obiecte si imagini si containere
+* docker containers are immutable
+* o imagine poate fi creata dintr-un container
+* docker volumes
+* docker networking
+* containers linking
+* how to use containers for local development
+* prezinta meeton local dev
+           meeton api backend (local & elastic beanstalk)
+* common recipes
+    * ngix/php-fpm/crond in a single container (nu vad avantajele in a crea un phpfpm dedicat daca nu este shareuit intre container nginx)
+    * mysql 
+    * apache/php
+* pitfalls
+    * user/group permissions
+    * networking issues
+    * firewalls
+* vagrant vs docker
+    these are not mutual exclusive: use them both!
+* who uses it (Amazon, Google, Microsoft)
