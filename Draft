@@ -1,10 +1,10 @@
 * descriere
-    * ce este
-    * ce nu este
+    * ce este [DONE]
+    * ce nu este [DONE]
     * la ce poate fi folosit (brieft)
-* diferente fata de o masina virtuala (implementare cu cgroups, namespace, etc) - it's a SANDBOX
-* pe ce platforme poate fi folosit (linux, macos, windows)
-* cum se instaleaza pe linux
+* diferente fata de o masina virtuala (implementare cu cgroups, namespace, etc) - it's a SANDBOX [DONE]
+* pe ce platforme poate fi folosit (linux, macos, windows) [DONE]
+* cum se instaleaza pe linux [DONE]
 * ce este o imagine docker
     * vorbeste despre docker hub repository
     * exista posibilitatea de a avea repository privat de imagini
@@ -12,7 +12,7 @@
         * Dockerfile 
         * manual 
         * ALWASY USE A DOCKER FILE IF YOU INTEND TO SHARE AN IMAGE
-* ce este un container docker
+* ce este un container docker [DONE]
 * fa analogia intre clase si obiecte si imagini si containere
 * docker containers are immutable
 * o imagine poate fi creata dintr-un container
