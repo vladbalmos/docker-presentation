@@ -1,22 +1,22 @@
 * descriere
     * ce este [DONE]
     * ce nu este [DONE]
-    * la ce poate fi folosit (brieft)
+    * la ce poate fi folosit [DONE]
 * diferente fata de o masina virtuala (implementare cu cgroups, namespace, etc) - it's a SANDBOX [DONE]
 * pe ce platforme poate fi folosit (linux, macos, windows) [DONE]
 * cum se instaleaza pe linux [DONE]
 * ce este o imagine docker
-    * vorbeste despre docker hub repository
-    * exista posibilitatea de a avea repository privat de imagini
+    * vorbeste despre docker hub repository [DONE]
+    * exista posibilitatea de a avea repository privat de imagini [DONE]
     * cum se creeaza o imagine:
         * Dockerfile 
-        * manual 
-        * ALWASY USE A DOCKER FILE IF YOU INTEND TO SHARE AN IMAGE
+        * manual  [DONE]
+        * ALWASY USE A DOCKER FILE IF YOU INTEND TO SHARE AN IMAGE [DONE]
 * ce este un container docker [DONE]
-* fa analogia intre clase si obiecte si imagini si containere
-* docker containers are immutable
+* fa analogia intre clase si obiecte si imagini si containere [DONE]
+* docker containers are immutable [DONE]
 * o imagine poate fi creata dintr-un container
-* docker volumes
+* docker volumes [DONE]
 * docker networking
 * containers linking
 * how to use containers for local development
@@ -27,7 +27,7 @@
     * mysql 
     * apache/php
 * pitfalls
-    * user/group permissions
+    * user/group permissions [DONE]
     * networking issues
     * firewalls
 * vagrant vs docker
