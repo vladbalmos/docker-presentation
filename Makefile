@@ -1,6 +1,7 @@
 # Variables
 WORDPRESS_DIR = $(shell readlink -f ./devel/wordpress-4.3)
 APACHE_CONFIG_DIR = $(shell readlink -f ./devel/apache-config)
+.DEFAULT_GOAL := run-apache-background
 
 # Images
 ubuntu-apache-image:
@@ -37,5 +38,7 @@ create-apache-container: wordpress-apache-image create-mysql-container
 				  --link wp-mysql:db-host \
 				  wordpress-apache
 
-run-apache-foreground: create-apache-container
+run-apache-foreground: create-apache-container run-mysql-background
 	docker start -a -i wp-apache
+run-apache-background: create-apache-container run-mysql-background
+	docker start wp-apache
