@@ -14,3 +14,5 @@ Adaugati in /etc/hosts
   
 Accesati in browser http://wordpress-docker.d:28080
 
+Comenzile docker folosite pentru a crea imaginile si containerele din prezentare sunt enumerate in fisierul Makefile.
+
