@@ -46,8 +46,10 @@ run-apache-background: create-apache-container run-mysql-background
 install:
 	./setup.sh
 
-clean:
+docker-clean:
 	docker rm -f wp-apache wp-mysql || true
 	docker rmi -f wordpress-apache wordpress-mysql ubuntu-apache || true
+
+clean: docker-clean
 	rm -rf devel/wordpress-4.3
 	rm -rf ~/tmp/docker-presentation/host-volume
